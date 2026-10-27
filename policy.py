@@ -2,7 +2,7 @@
 
 
 class CalibrationMethod:
-    def fit(self, probs, labels, groups):
+    def fit(self, probs, labels, groups, record_probs):
         return self
 
     def predict_proba(self, probs, groups):
